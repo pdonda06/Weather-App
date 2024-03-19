@@ -1,0 +1,84 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+            font-family: 'Josefin Sans', sans-serif;
+            font-family: 'Quicksand', sans-serif;
+        }
+        
+        .container {
+            margin: 0 auto;
+            padding: 20px;
+            background-image: url("img.png");
+            background-repeat: no-repeat;
+            background-size: 100%;
+            border-radius: 10px;
+            width: 1000px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            margin-top: 150px;
+            box-shadow: 0px 0px 8px 3px rgb(255, 255, 255);
+            animation: ani;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+        }
+        
+        @keyframes ani {
+            0% {
+                box-shadow: 0px 0px 8px 3px rgb(4, 0, 255);
+            }
+            50% {
+                box-shadow: 0px 0px 8px 3px rgb(255, 0, 0);
+            }
+            100% {
+                box-shadow: 0px 0px 8px 3px rgb(4, 0, 255);
+            }
+        }
+        
+        h1 {
+            margin-top: 0;
+            color: #000000;
+            font-weight: bold;
+        }
+        
+        .search-container {
+            margin-bottom: 20px;
+        }
+        
+        input[type="text"] {
+            padding: 8px;
+            width: 70%;
+            border: 2px solid black;
+            border-radius: 10px;
+        }
+        
+        button {
+            padding: 8px 16px;
+            background-color: #000000;
+            border-radius: 10px;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+        }
+        
+        #weatherInfo,
+        #errorContainer {
+            margin-top: 20px;
+            color: #000000;
+        }
+        
+        .hidden {
+            display: none;
+        }
+        
+        .head {
+            color: white;
+            font-size: 50px;
+            text-align: center;
+        }
+        
+        #anant {
+            color: white;
+        }
